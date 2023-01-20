@@ -1,3 +1,6 @@
+# angular hmr
+.angular/
+
 # Logs
 logs
 *.log
