@@ -5,18 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TafSnackBarComponent } from './components/taf-snack-bar/taf-snack-bar.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
+import { PlatformModule } from '@angular/cdk/platform';
+import { MobileMainPageComponent } from './pages/mobile-main-page/mobile-main-page.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TafSnackBarComponent,
-    MainPageComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, TafSnackBarComponent, MainPageComponent, MobileMainPageComponent],
+  imports: [BrowserModule, AppRoutingModule, PlatformModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
