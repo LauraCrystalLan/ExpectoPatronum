@@ -1,0 +1,14 @@
+$snackbar-background-color: #f1f1f1;
+$snackbar-success-border: #64a539;
+$snackbar-error-border: #d23241;
+$snackbar-info-border: #0076a8;
+$snackbar-warning-border: #ffaa00;
+
+.body {
+  width: 284px;
+  height: 100px;
+  box-sizing: border-box;
+  background-color: $snackbar-background-color;
+  border: 10px solid $snackbar-error-border;
+}
+
